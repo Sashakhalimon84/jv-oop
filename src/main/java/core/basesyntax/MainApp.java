@@ -11,11 +11,8 @@ public class MainApp {
         for (int i = 0; i < machines.length; i++) {
             machines[i].doWork();
         }
-
         for (int i = 0; i < machines.length; i++) {
             machines[i].stopWork();
         }
     }
 }
-
-
